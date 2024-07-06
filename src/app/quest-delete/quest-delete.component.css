@@ -1,0 +1,25 @@
+.quest-delete__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    background-color: #283148;
+    border: solid 1px #7CA2FF;
+}
+
+.quest-delete__container p {
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.quest-delete__container button {
+    color: white;
+    background-color: #ff7c7c;
+    font-size: 22px;
+    border: none;
+    border-radius: 25px;
+    margin: 2px;
+}

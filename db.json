@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Alexandre",
+      "email": "wes@gmail.com",
+      "password": "123",
+      "player_id": 1
+    }
+  ],
+  "players": [
+    {
+      "id": "1",
+      "name": "Alex",
+      "job": "Thinker",
+      "title": "Noob",
+      "exp": 0,
+      "level": 0,
+      "str": 0,
+      "int": 0,
+      "agi": 0,
+      "sta": 0,
+      "wil": 0
+    }
+  ],
+  "quests": [
+    {
+      "id": "2",
+      "name": "READ Again",
+      "exp": 5,
+      "status": "INT",
+      "amout": 50,
+      "type": "Uni",
+      "description": "Completar 50 Pag.",
+      "done": false,
+      "clock": "2024-06-29",
+      "playerId": 1
+    },
+    {
+      "id": "3",
+      "name": "STRETCHING",
+      "exp": 5,
+      "status": "AGI",
+      "amout": 5,
+      "type": "Min",
+      "description": "Completar alongar-se por 5 minutos.",
+      "done": false,
+      "clock": "2024-06-29",
+      "player_id": 1
+    },
+    {
+      "id": "4",
+      "name": "RUN",
+      "exp": 5,
+      "status": "STA",
+      "amout": 1,
+      "type": "Dis",
+      "description": "Completar Correr 1 km.",
+      "done": false,
+      "clock": "2024-06-29",
+      "player_id": 1
+    }
+  ],
+  "punish": [
+    {
+      "id": "1",
+      "name": "SACRIFICE TO THE ALTER",
+      "description": "Sacrifique uma atividade ou objeto por 24 horas.",
+      "player_id": 1
+    },
+    {
+      "id": "2",
+      "name": "KIND BY FORCE",
+      "description": "Faça uma doação.",
+      "player_id": 1
+    }
+  ]
+}

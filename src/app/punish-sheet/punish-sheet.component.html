@@ -1,0 +1,8 @@
+<nav class="punish-sheet__navbar">
+    <a routerLink="/punish-create">CREATE</a>
+    <a routerLink="/punish-delete">DELETE</a>
+</nav>
+<div class="punish-sheet__container_info" *ngFor="let punish of listPunish">
+    <p>NAME: {{punish.name}}</p>
+    <a routerLink="/punish-edit/{{punish.id}}">Edit</a>
+</div>

@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    font-family: "Lekton", sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(0deg, rgba(97,118,174,1) 24%, rgba(40,49,72,1) 80%);
+    min-height: 100vh;
+    border: solid 1px black;
+}
+
+a {
+    text-decoration: none;
+}
+
+body, a {
+    color: white;
+}
+
+body, p {
+    margin: 0;
+    padding: 0;
+}
