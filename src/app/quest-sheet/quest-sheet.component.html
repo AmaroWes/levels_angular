@@ -1,8 +1,0 @@
-<nav class="quest-sheet__navbar">
-    <a routerLink="/quest-create">CREATE</a>
-    <a routerLink="/quest-delete">DELETE</a>
-</nav>
-<div class="quest-sheet__container_info" *ngFor="let quest of listQuests">
-    <p>NAME: {{quest.name}}</p>
-    <a routerLink="/quest-edit/{{quest.id}}">Edit</a>
-</div>
